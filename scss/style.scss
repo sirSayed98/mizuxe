@@ -1,0 +1,132 @@
+$primary: #3292a6;
+$primary-overlay: rgba(50, 146, 166, 0.8);
+
+body{
+    margin-top: 110px;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.699);
+  box-shadow: 0.1rem 0.1rem 1px $primary-overlay;
+  .nav-link {
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-size: 25px;
+    padding-right: 1.2rem !important;
+  }
+  .nav-link:hover,
+  :focus {
+    color: rgba(0, 0, 0, 0.7) !important;
+  }
+  .navbar-toggler{
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1)
+
+  }
+ 
+
+  .fa-bullseye{
+    font-size:2rem;;
+}
+
+
+
+}
+.home-page-heading {
+  margin-top: 90px;
+}
+.inner-home{
+color:white;
+    background-image: linear-gradient(to right bottom,rgba(#58A6B6,.8),rgba(#58A6B6,.8)), url("../img/mountains.jpg");
+  p{
+      font-size: 20px;
+      font-weight: 300;
+  }
+button{
+    color:white;
+}
+
+}
+
+.character-1,.character-2{
+
+text-align: center;
+    padding: 2rem;
+    border: 1px solid #3292A6;
+    border-radius: 8px;
+    color: #3292A6;
+    span{
+        font-weight: 500;
+        font-size:2rem;
+    }
+
+}
+.character-2{
+
+    color: white;
+    background: #3292A6;
+    
+}
+
+.why-book{
+    background: #F8F9FA;
+    .why-book-heading{
+        h1{
+            font-weight: 500 ;
+            margin-bottom: 1.5rem;
+        }
+        p{
+            font-size: 1.2rem;
+            color:black;
+        }
+        margin-bottom: 3rem;
+    }
+  
+}
+a:hover{
+    text-decoration: none;
+}
+.collapsedivs{
+
+margin-bottom: 5rem;
+
+}
+.meetAutorHeading{
+    color:#3292A6;
+    h1{
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+    p{
+        font-size: 1.2rem;
+        color:black;
+    }
+    margin-bottom: 2rem;
+}
+.authorCard{
+    
+    text-align: center;
+    border: 1px solid rgb(233, 207, 207);
+    height: 400px;
+    border-radius: 5px;
+    padding: 10px;
+img{
+    margin-top: -50px;
+}
+span{
+    
+    font-size: 1.3rem;
+    color:#6C757D;
+    font-weight: 500;
+}
+.authorMedia{
+padding: 0px 50px;
+font-size:20px;
+}
+.fab{
+    color: white ;
+}
+}
+.authorCard:hover{
+    background: #3292A6;
+    color: white;
+
+}
